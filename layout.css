@@ -1,0 +1,45 @@
+* {
+  border: 1px solid black;
+}
+.background {
+  background-color: aqua;
+  padding: 0%;
+  margin: 1px;
+}
+.flex {
+  display: flex;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+  color: blue;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+.order1 {
+  order: 1;
+}
+.order2 {
+  order: 2;
+}
+.order3 {
+  order: 3;
+}

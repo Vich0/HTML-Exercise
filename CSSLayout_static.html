@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIcho</title>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+  </head>
+  <body>
+    <div><img src="./avatar.jpg" alt="picture" width="300px"</div>
+    <div class="background"><p class="left">Vicho_left</p></div>
+    <div class="background"><p class="right">Vicho_right</p></div>
+    <div class="background"><p class="center">Vicho_center</p></div>
+    <div class="space-around">
+      <p>Vicho1</p>
+      <p>Vicho2</p>
+    </div>
+    <div class="space-between">
+      <p>Vicho1</p>
+      <p>Vicho2</p>
+    </div>
+    <div class="flex">
+      <p class="order3">Vicho1</p>
+      <p class="order1">Vicho2</p>
+      <p class="order2">Vicho3</p>
+      <p>Vicho4</p>
+      <p>Vicho5</p>
+      <!-- 未用order排序的按默认顺序排在前面 -->
+    </div>
+  </body>
+</html>
+<!-- justify-content操作行
+    align-items操作列
+    align-self操作列中的某个元素
+    flex-direction操作控制元素按行排序或按列排序，
+  当行列互换时，原本操作行的函数体现为操作列，反之同理
+  当行列反转时（reverse），行列操作的方向与原本相反（操作的依然是原本的盒子） -->

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>练习</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #eee;
+    }
+    div {
+      margin: 5px;
+    }
+    /* * {
+      border: 3px solid black;
+    } */
+    .flex {
+      display: flex;
+      margin: 2px;
+    }
+    .flex1 {
+      flex: 1;
+    }
+    .caidan {
+      width: 150px;
+      height: auto;
+    }
+    .youce {
+      flex: 1;
+      flex-direction: column;
+    }
+    .daohang {
+      height: 50px;
+    }
+    .zhuquyu {
+      flex-direction: row;
+    }
+    .neirong {
+      flex-direction: column;
+      flex: 1;
+    }
+    .guanggao {
+      flex-direction: row;
+      height: 120px;
+    }
+    .xiaoxi {
+      height: 50px;
+    }
+    .margin_y {
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .margin_x {
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .baise {
+      background-color: white;
+    }
+    .yinying {
+      box-shadow: rgb(0, 0, 0/20%) 0px 2px 1px -1px,
+        rgb(0, 0, 0/14%) 0px 1px 1px 0px, rgb(0, 0, 0/12%) 0px 1px 3px 0px;
+    }
+  </style>
+  <body class="flex">
+    <div class="flex caidan baise" style="flex-direction: column">
+      <div
+        class="flex"
+        style="align-items: center; border-bottom: solid black; padding: 10px"
+      >
+        <img src="./avatar.jpg" alt="picture" width="80px" />
+        <div>Vicho</div>
+      </div>
+      <div
+        class="flex flex1"
+        style="flex-direction: column; align-items: center"
+      >
+        <div style="border-bottom: 1px solid black; padding: 10px 30px">
+          个人空间
+        </div>
+        <div style="border-bottom: 1px solid black; padding: 10px 30px">
+          个人空间
+        </div>
+        <div style="border-bottom: 1px solid black; padding: 10px 30px">
+          个人空间
+        </div>
+        <div style="border-bottom: 1px solid black; padding: 10px 30px">
+          个人空间
+        </div>
+      </div>
+    </div>
+    <div class="flex youce">
+      <div class="flex daohang baise">导航</div>
+      <div class="flex flex1" style="flex: 1; overflow: auto">
+        <div style="flex: 3; flex-direction: column" class="flex">
+          <div class="flex guanggao">
+            <div style="height: 100px; flex: 1" class="baise yinying">广告</div>
+            <div style="height: 100px; flex: 1" class="baise yinying">广告</div>
+            <div style="height: 100px; flex: 1" class="baise yinying">广告</div>
+            <div style="height: 100px; flex: 1" class="baise yinying">广告</div>
+          </div>
+          <div class="flex neirong">
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+            <div style="height: 100px" class="baise">内容</div>
+          </div>
+        </div>
+        <div style="flex: 1">
+          <div class="flex" style="flex-direction: column">
+            <div class="xiaoxi baise">消息</div>
+            <div class="xiaoxi baise">消息</div>
+            <div class="xiaoxi baise">消息</div>
+            <div class="xiaoxi baise yinying">消息</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
